@@ -1,0 +1,221 @@
+﻿tipo_lancamento;data_referencia;id_obra;nome_obra;id_etapa;nome_etapa;pacote_servico;peso_fisico_etapa_pct;avanco_fisico_etapa_pct;id_insumo;descricao_insumo;categoria_insumo;grupo_custo;unidade_medida;nome_fornecedor;quantidade;valor_unitario;valor_total;forma_pagamento;status_pagamento;colaborador_lancamento
+Previsto;2026-06-01;OBR-001;Casa Térrea - Lote 12;ETP-001;Serviços Preliminares;Serviços preliminares;5;0;INS-001;Cimento CP-II 50kg;Material;Concreto;saco;;78.37;33.96;2661.45;;;
+Realizado;2026-06-09;OBR-001;Casa Térrea - Lote 12;ETP-001;Serviços Preliminares;Serviços preliminares;5;100;INS-001;Cimento CP-II 50kg;Material;Concreto;saco;Depósito Central;31.67;32.85;1040.36;PIX;Pago;Carlos Mestre de Obras
+Realizado;2026-05-27;OBR-001;Casa Térrea - Lote 12;ETP-001;Serviços Preliminares;Serviços preliminares;5;100;INS-001;Cimento CP-II 50kg;Material;Concreto;saco;Construmax;31.67;35.69;1130.3;PIX;Pago;João Proprietário
+Realizado;2026-06-14;OBR-001;Casa Térrea - Lote 12;ETP-001;Serviços Preliminares;Serviços preliminares;5;100;INS-001;Cimento CP-II 50kg;Material;Concreto;saco;Elétrica Luz;31.67;33.76;1069.18;PIX;Pago;Carlos Mestre de Obras
+Previsto;2026-06-01;OBR-001;Casa Térrea - Lote 12;ETP-001;Serviços Preliminares;Serviços preliminares;5;0;INS-005;Servente;Mão de obra;Mão de Obra;diária;;352.09;77.95;27445.42;;;
+Realizado;2026-05-30;OBR-001;Casa Térrea - Lote 12;ETP-001;Serviços Preliminares;Serviços preliminares;5;100;INS-005;Servente;Mão de obra;Mão de Obra;diária;Depósito Central;343.41;85.96;29519.52;Boleto;Pago;João Proprietário
+Previsto;2026-06-01;OBR-001;Casa Térrea - Lote 12;ETP-001;Serviços Preliminares;Serviços preliminares;5;0;INS-004;Pedreiro;Mão de obra;Mão de Obra;diária;;305.83;164.32;50253.99;;;
+Realizado;2026-06-08;OBR-001;Casa Térrea - Lote 12;ETP-001;Serviços Preliminares;Serviços preliminares;5;100;INS-004;Pedreiro;Mão de obra;Mão de Obra;diária;Depósito Central;108.14;160.21;17325.11;Cartão de Crédito;Pago;João Proprietário
+Realizado;2026-05-29;OBR-001;Casa Térrea - Lote 12;ETP-001;Serviços Preliminares;Serviços preliminares;5;100;INS-004;Pedreiro;Mão de obra;Mão de Obra;diária;Depósito Central;108.14;175.08;18933.15;Cartão de Crédito;Pago;João Proprietário
+Realizado;2026-06-03;OBR-001;Casa Térrea - Lote 12;ETP-001;Serviços Preliminares;Serviços preliminares;5;100;INS-004;Pedreiro;Mão de obra;Mão de Obra;diária;Depósito Central;108.14;188.48;20382.23;Boleto;Pago;João Proprietário
+Previsto;2026-06-01;OBR-001;Casa Térrea - Lote 12;ETP-001;Serviços Preliminares;Serviços preliminares;5;0;INS-002;Aço CA50 10mm;Material;Aço;kg;;89.7;80.73;7241.48;;;
+Realizado;2026-06-16;OBR-001;Casa Térrea - Lote 12;ETP-001;Serviços Preliminares;Serviços preliminares;5;100;INS-002;Aço CA50 10mm;Material;Aço;kg;Depósito Central;29.7;91.82;2727.05;Cartão de Crédito;Pago;Carlos Mestre de Obras
+Realizado;2026-06-08;OBR-001;Casa Térrea - Lote 12;ETP-001;Serviços Preliminares;Serviços preliminares;5;100;INS-002;Aço CA50 10mm;Material;Aço;kg;Elétrica Luz;29.7;79.33;2356.1;Cartão de Crédito;Pago;Carlos Mestre de Obras
+Realizado;2026-05-28;OBR-001;Casa Térrea - Lote 12;ETP-001;Serviços Preliminares;Serviços preliminares;5;100;INS-002;Aço CA50 10mm;Material;Aço;kg;Cia do Aço;29.7;87.75;2606.17;PIX;A pagar;João Proprietário
+Previsto;2026-06-21;OBR-001;Casa Térrea - Lote 12;ETP-002;Fundação;Estrutural;15;0;INS-002;Aço CA50 10mm;Material;Aço;kg;;203.86;184.19;37548.97;;;
+Realizado;2026-07-03;OBR-001;Casa Térrea - Lote 12;ETP-002;Fundação;Estrutural;15;100;INS-002;Aço CA50 10mm;Material;Aço;kg;Construmax;96.83;180.12;17441.02;Boleto;Pago;João Proprietário
+Realizado;2026-06-28;OBR-001;Casa Térrea - Lote 12;ETP-002;Fundação;Estrutural;15;100;INS-002;Aço CA50 10mm;Material;Aço;kg;Elétrica Luz;96.83;208.05;20145.48;PIX;A pagar;Carlos Mestre de Obras
+Previsto;2026-06-21;OBR-001;Casa Térrea - Lote 12;ETP-002;Fundação;Estrutural;15;0;INS-004;Pedreiro;Mão de obra;Mão de Obra;diária;;259.67;31.82;8262.7;;;
+Realizado;2026-06-21;OBR-001;Casa Térrea - Lote 12;ETP-002;Fundação;Estrutural;15;100;INS-004;Pedreiro;Mão de obra;Mão de Obra;diária;Equipe Mão na Massa;311.96;31.2;9733.15;Boleto;Pago;João Proprietário
+Previsto;2026-06-21;OBR-001;Casa Térrea - Lote 12;ETP-002;Fundação;Estrutural;15;0;INS-006;Areia Média;Material;Concreto;m3;;196.99;199.28;39256.17;;;
+Realizado;2026-06-16;OBR-001;Casa Térrea - Lote 12;ETP-002;Fundação;Estrutural;15;100;INS-006;Areia Média;Material;Concreto;m3;Equipe Mão na Massa;64.88;211.37;13713.69;Cartão de Crédito;Pago;João Proprietário
+Realizado;2026-06-26;OBR-001;Casa Térrea - Lote 12;ETP-002;Fundação;Estrutural;15;100;INS-006;Areia Média;Material;Concreto;m3;Depósito Central;64.88;219.95;14270.36;Boleto;Pago;João Proprietário
+Realizado;2026-06-24;OBR-001;Casa Térrea - Lote 12;ETP-002;Fundação;Estrutural;15;100;INS-006;Areia Média;Material;Concreto;m3;Construmax;64.88;189.45;12291.52;PIX;Pago;Carlos Mestre de Obras
+Previsto;2026-06-21;OBR-001;Casa Térrea - Lote 12;ETP-002;Fundação;Estrutural;15;0;INS-010;Tinta Acrílica Branca 18L;Material;Acabamento;un;;436.55;70.21;30650.18;;;
+Realizado;2026-06-27;OBR-001;Casa Térrea - Lote 12;ETP-002;Fundação;Estrutural;15;100;INS-010;Tinta Acrílica Branca 18L;Material;Acabamento;un;Cia do Aço;156.82;69.49;10897.42;Cartão de Crédito;A pagar;Carlos Mestre de Obras
+Realizado;2026-07-01;OBR-001;Casa Térrea - Lote 12;ETP-002;Fundação;Estrutural;15;100;INS-010;Tinta Acrílica Branca 18L;Material;Acabamento;un;Depósito Central;156.82;75.11;11778.75;PIX;A pagar;João Proprietário
+Realizado;2026-06-23;OBR-001;Casa Térrea - Lote 12;ETP-002;Fundação;Estrutural;15;100;INS-010;Tinta Acrílica Branca 18L;Material;Acabamento;un;Construmax;156.82;70.06;10986.81;PIX;Pago;João Proprietário
+Previsto;2026-06-21;OBR-001;Casa Térrea - Lote 12;ETP-002;Fundação;Estrutural;15;0;INS-008;Tubo PVC 100mm;Material;Hidráulica;m;;409.85;195.93;80301.91;;;
+Realizado;2026-07-01;OBR-001;Casa Térrea - Lote 12;ETP-002;Fundação;Estrutural;15;100;INS-008;Tubo PVC 100mm;Material;Hidráulica;m;Construmax;159.57;191.16;30503.4;PIX;Pago;João Proprietário
+Realizado;2026-07-03;OBR-001;Casa Térrea - Lote 12;ETP-002;Fundação;Estrutural;15;100;INS-008;Tubo PVC 100mm;Material;Hidráulica;m;Equipe Mão na Massa;159.57;223.92;35730.91;Cartão de Crédito;Pago;João Proprietário
+Realizado;2026-07-06;OBR-001;Casa Térrea - Lote 12;ETP-002;Fundação;Estrutural;15;100;INS-008;Tubo PVC 100mm;Material;Hidráulica;m;Elétrica Luz;159.57;201.77;32196.44;Boleto;A pagar;João Proprietário
+Previsto;2026-06-21;OBR-001;Casa Térrea - Lote 12;ETP-002;Fundação;Estrutural;15;0;INS-009;Porcelanato 60x60;Material;Revestimento;m2;;69.29;56.57;3919.74;;;
+Realizado;2026-07-04;OBR-001;Casa Térrea - Lote 12;ETP-002;Fundação;Estrutural;15;100;INS-009;Porcelanato 60x60;Material;Revestimento;m2;Cia do Aço;31.44;60.01;1886.71;PIX;Pago;Carlos Mestre de Obras
+Realizado;2026-06-17;OBR-001;Casa Térrea - Lote 12;ETP-002;Fundação;Estrutural;15;100;INS-009;Porcelanato 60x60;Material;Revestimento;m2;Elétrica Luz;31.44;56.33;1771.02;PIX;Pago;João Proprietário
+Previsto;2026-07-11;OBR-001;Casa Térrea - Lote 12;ETP-003;Estrutura;Estrutural;20;0;INS-004;Pedreiro;Mão de obra;Mão de Obra;diária;;129.07;102.5;13229.67;;;
+Realizado;2026-07-19;OBR-001;Casa Térrea - Lote 12;ETP-003;Estrutura;Estrutural;20;100;INS-004;Pedreiro;Mão de obra;Mão de Obra;diária;Elétrica Luz;62.38;99.36;6198.08;Boleto;Pago;Carlos Mestre de Obras
+Realizado;2026-07-26;OBR-001;Casa Térrea - Lote 12;ETP-003;Estrutura;Estrutural;20;100;INS-004;Pedreiro;Mão de obra;Mão de Obra;diária;Depósito Central;62.38;111.18;6935.41;PIX;Pago;João Proprietário
+Previsto;2026-07-11;OBR-001;Casa Térrea - Lote 12;ETP-003;Estrutura;Estrutural;20;0;INS-009;Porcelanato 60x60;Material;Revestimento;m2;;402.29;35.21;14164.63;;;
+Realizado;2026-07-19;OBR-001;Casa Térrea - Lote 12;ETP-003;Estrutura;Estrutural;20;100;INS-009;Porcelanato 60x60;Material;Revestimento;m2;Cia do Aço;388.84;36.61;14235.43;Boleto;Pago;Carlos Mestre de Obras
+Previsto;2026-07-11;OBR-001;Casa Térrea - Lote 12;ETP-003;Estrutura;Estrutural;20;0;INS-003;Tijolo Baiano 8 furos;Material;Alvenaria;un;;227.13;174.35;39600.12;;;
+Realizado;2026-07-23;OBR-001;Casa Térrea - Lote 12;ETP-003;Estrutura;Estrutural;20;100;INS-003;Tijolo Baiano 8 furos;Material;Alvenaria;un;Depósito Central;70.73;188.37;13323.41;PIX;A pagar;Carlos Mestre de Obras
+Realizado;2026-07-21;OBR-001;Casa Térrea - Lote 12;ETP-003;Estrutura;Estrutural;20;100;INS-003;Tijolo Baiano 8 furos;Material;Alvenaria;un;Hidráulica Água Boa;70.73;171.43;12125.24;PIX;A pagar;Carlos Mestre de Obras
+Realizado;2026-07-06;OBR-001;Casa Térrea - Lote 12;ETP-003;Estrutura;Estrutural;20;100;INS-003;Tijolo Baiano 8 furos;Material;Alvenaria;un;Hidráulica Água Boa;70.73;171.37;12121.0;Boleto;A pagar;João Proprietário
+Previsto;2026-07-11;OBR-001;Casa Térrea - Lote 12;ETP-003;Estrutura;Estrutural;20;0;INS-006;Areia Média;Material;Concreto;m3;;149.77;143.87;21547.41;;;
+Realizado;2026-07-21;OBR-001;Casa Térrea - Lote 12;ETP-003;Estrutura;Estrutural;20;100;INS-006;Areia Média;Material;Concreto;m3;Cia do Aço;62.32;152.67;9514.39;PIX;Pago;Carlos Mestre de Obras
+Realizado;2026-07-23;OBR-001;Casa Térrea - Lote 12;ETP-003;Estrutura;Estrutural;20;100;INS-006;Areia Média;Material;Concreto;m3;Depósito Central;62.32;153.34;9556.15;Cartão de Crédito;Pago;Carlos Mestre de Obras
+Realizado;2026-07-22;OBR-001;Casa Térrea - Lote 12;ETP-003;Estrutura;Estrutural;20;100;INS-006;Areia Média;Material;Concreto;m3;Construmax;62.32;153.49;9565.5;PIX;Pago;Carlos Mestre de Obras
+Previsto;2026-07-11;OBR-001;Casa Térrea - Lote 12;ETP-003;Estrutura;Estrutural;20;0;INS-005;Servente;Mão de obra;Mão de Obra;diária;;427.16;27.68;11823.79;;;
+Realizado;2026-07-09;OBR-001;Casa Térrea - Lote 12;ETP-003;Estrutura;Estrutural;20;100;INS-005;Servente;Mão de obra;Mão de Obra;diária;Construmax;485.39;27.6;13396.76;PIX;Pago;Carlos Mestre de Obras
+Previsto;2026-07-11;OBR-001;Casa Térrea - Lote 12;ETP-003;Estrutura;Estrutural;20;0;INS-007;Cabo Flexível 2.5mm;Material;Elétrica;m;;313.5;92.56;29017.56;;;
+Realizado;2026-07-14;OBR-001;Casa Térrea - Lote 12;ETP-003;Estrutura;Estrutural;20;100;INS-007;Cabo Flexível 2.5mm;Material;Elétrica;m;Cia do Aço;114.72;93.79;10759.59;Cartão de Crédito;Pago;Carlos Mestre de Obras
+Realizado;2026-07-10;OBR-001;Casa Térrea - Lote 12;ETP-003;Estrutura;Estrutural;20;100;INS-007;Cabo Flexível 2.5mm;Material;Elétrica;m;Equipe Mão na Massa;114.72;92.85;10651.75;Cartão de Crédito;Pago;João Proprietário
+Realizado;2026-07-08;OBR-001;Casa Térrea - Lote 12;ETP-003;Estrutura;Estrutural;20;100;INS-007;Cabo Flexível 2.5mm;Material;Elétrica;m;Depósito Central;114.72;105.13;12060.51;Boleto;Pago;Carlos Mestre de Obras
+Previsto;2026-07-11;OBR-001;Casa Térrea - Lote 12;ETP-003;Estrutura;Estrutural;20;0;INS-010;Tinta Acrílica Branca 18L;Material;Acabamento;un;;45.9;54.43;2498.34;;;
+Realizado;2026-07-08;OBR-001;Casa Térrea - Lote 12;ETP-003;Estrutura;Estrutural;20;100;INS-010;Tinta Acrílica Branca 18L;Material;Acabamento;un;Cia do Aço;21.72;55.51;1205.68;Boleto;Pago;João Proprietário
+Realizado;2026-07-15;OBR-001;Casa Térrea - Lote 12;ETP-003;Estrutura;Estrutural;20;100;INS-010;Tinta Acrílica Branca 18L;Material;Acabamento;un;Construmax;21.72;60.78;1320.14;Cartão de Crédito;Pago;João Proprietário
+Previsto;2026-07-31;OBR-001;Casa Térrea - Lote 12;ETP-004;Alvenaria;Estrutural;15;0;INS-003;Tijolo Baiano 8 furos;Material;Alvenaria;un;;281.08;65.38;18377.01;;;
+Realizado;2026-08-15;OBR-001;Casa Térrea - Lote 12;ETP-004;Alvenaria;Estrutural;15;83;INS-003;Tijolo Baiano 8 furos;Material;Alvenaria;un;Elétrica Luz;75.72;66.59;5042.19;Cartão de Crédito;Pago;Carlos Mestre de Obras
+Realizado;2026-08-08;OBR-001;Casa Térrea - Lote 12;ETP-004;Alvenaria;Estrutural;15;83;INS-003;Tijolo Baiano 8 furos;Material;Alvenaria;un;Elétrica Luz;75.72;63.32;4794.59;PIX;Pago;Carlos Mestre de Obras
+Realizado;2026-08-03;OBR-001;Casa Térrea - Lote 12;ETP-004;Alvenaria;Estrutural;15;83;INS-003;Tijolo Baiano 8 furos;Material;Alvenaria;un;Cia do Aço;75.72;70.44;5333.72;Cartão de Crédito;Pago;João Proprietário
+Previsto;2026-07-31;OBR-001;Casa Térrea - Lote 12;ETP-004;Alvenaria;Estrutural;15;0;INS-005;Servente;Mão de obra;Mão de Obra;diária;;284.84;35.7;10168.79;;;
+Realizado;2026-08-06;OBR-001;Casa Térrea - Lote 12;ETP-004;Alvenaria;Estrutural;15;83;INS-005;Servente;Mão de obra;Mão de Obra;diária;Construmax;95.86;37.81;3624.47;Cartão de Crédito;Pago;Carlos Mestre de Obras
+Realizado;2026-08-06;OBR-001;Casa Térrea - Lote 12;ETP-004;Alvenaria;Estrutural;15;83;INS-005;Servente;Mão de obra;Mão de Obra;diária;Depósito Central;95.86;34.21;3279.37;Boleto;Pago;Carlos Mestre de Obras
+Realizado;2026-08-06;OBR-001;Casa Térrea - Lote 12;ETP-004;Alvenaria;Estrutural;15;83;INS-005;Servente;Mão de obra;Mão de Obra;diária;Construmax;95.86;38.68;3707.86;Boleto;A pagar;Carlos Mestre de Obras
+Previsto;2026-07-31;OBR-001;Casa Térrea - Lote 12;ETP-004;Alvenaria;Estrutural;15;0;INS-002;Aço CA50 10mm;Material;Aço;kg;;463.62;58.8;27260.86;;;
+Realizado;2026-08-08;OBR-001;Casa Térrea - Lote 12;ETP-004;Alvenaria;Estrutural;15;83;INS-002;Aço CA50 10mm;Material;Aço;kg;Depósito Central;477.8;65.39;31243.34;PIX;Pago;João Proprietário
+Previsto;2026-07-31;OBR-001;Casa Térrea - Lote 12;ETP-004;Alvenaria;Estrutural;15;0;INS-001;Cimento CP-II 50kg;Material;Concreto;saco;;393.37;91.17;35863.54;;;
+Realizado;2026-08-03;OBR-001;Casa Térrea - Lote 12;ETP-004;Alvenaria;Estrutural;15;83;INS-001;Cimento CP-II 50kg;Material;Concreto;saco;Cia do Aço;130.86;101.39;13267.9;Cartão de Crédito;Pago;Carlos Mestre de Obras
+Realizado;2026-08-02;OBR-001;Casa Térrea - Lote 12;ETP-004;Alvenaria;Estrutural;15;83;INS-001;Cimento CP-II 50kg;Material;Concreto;saco;Cia do Aço;130.86;102.27;13383.05;Boleto;Pago;Carlos Mestre de Obras
+Realizado;2026-08-01;OBR-001;Casa Térrea - Lote 12;ETP-004;Alvenaria;Estrutural;15;83;INS-001;Cimento CP-II 50kg;Material;Concreto;saco;Hidráulica Água Boa;130.86;90.68;11866.38;Boleto;Pago;Carlos Mestre de Obras
+Previsto;2026-08-20;OBR-001;Casa Térrea - Lote 12;ETP-005;Cobertura;Cobertura;10;0;INS-006;Areia Média;Material;Concreto;m3;;23.52;177.25;4168.92;;;
+Realizado;2026-08-23;OBR-001;Casa Térrea - Lote 12;ETP-005;Cobertura;Cobertura;10;40;INS-006;Areia Média;Material;Concreto;m3;Depósito Central;4.53;202.51;917.37;PIX;Pago;João Proprietário
+Realizado;2026-08-25;OBR-001;Casa Térrea - Lote 12;ETP-005;Cobertura;Cobertura;10;40;INS-006;Areia Média;Material;Concreto;m3;Hidráulica Água Boa;4.53;194.21;879.77;Cartão de Crédito;A pagar;Carlos Mestre de Obras
+Previsto;2026-08-20;OBR-001;Casa Térrea - Lote 12;ETP-005;Cobertura;Cobertura;10;0;INS-009;Porcelanato 60x60;Material;Revestimento;m2;;198.75;121.67;24181.91;;;
+Realizado;2026-08-31;OBR-001;Casa Térrea - Lote 12;ETP-005;Cobertura;Cobertura;10;40;INS-009;Porcelanato 60x60;Material;Revestimento;m2;Construmax;36.39;126.2;4592.42;Cartão de Crédito;Pago;Carlos Mestre de Obras
+Realizado;2026-08-17;OBR-001;Casa Térrea - Lote 12;ETP-005;Cobertura;Cobertura;10;40;INS-009;Porcelanato 60x60;Material;Revestimento;m2;Equipe Mão na Massa;36.39;124.45;4528.74;Boleto;Pago;Carlos Mestre de Obras
+Previsto;2026-08-20;OBR-001;Casa Térrea - Lote 12;ETP-005;Cobertura;Cobertura;10;0;INS-007;Cabo Flexível 2.5mm;Material;Elétrica;m;;362.68;70.56;25590.7;;;
+Realizado;2026-08-24;OBR-001;Casa Térrea - Lote 12;ETP-005;Cobertura;Cobertura;10;40;INS-007;Cabo Flexível 2.5mm;Material;Elétrica;m;Construmax;82.21;71.64;5889.52;PIX;Pago;João Proprietário
+Realizado;2026-08-20;OBR-001;Casa Térrea - Lote 12;ETP-005;Cobertura;Cobertura;10;40;INS-007;Cabo Flexível 2.5mm;Material;Elétrica;m;Construmax;82.21;76.59;6296.46;Cartão de Crédito;Pago;Carlos Mestre de Obras
+Previsto;2026-08-20;OBR-001;Casa Térrea - Lote 12;ETP-005;Cobertura;Cobertura;10;0;INS-010;Tinta Acrílica Branca 18L;Material;Acabamento;un;;158.9;53.88;8561.53;;;
+Realizado;2026-08-29;OBR-001;Casa Térrea - Lote 12;ETP-005;Cobertura;Cobertura;10;40;INS-010;Tinta Acrílica Branca 18L;Material;Acabamento;un;Hidráulica Água Boa;23.57;54.66;1288.34;Cartão de Crédito;Pago;João Proprietário
+Realizado;2026-08-20;OBR-001;Casa Térrea - Lote 12;ETP-005;Cobertura;Cobertura;10;40;INS-010;Tinta Acrílica Branca 18L;Material;Acabamento;un;Equipe Mão na Massa;23.57;59.74;1408.07;PIX;Pago;João Proprietário
+Realizado;2026-08-22;OBR-001;Casa Térrea - Lote 12;ETP-005;Cobertura;Cobertura;10;40;INS-010;Tinta Acrílica Branca 18L;Material;Acabamento;un;Equipe Mão na Massa;23.57;52.19;1230.12;Boleto;Pago;Carlos Mestre de Obras
+Previsto;2026-08-20;OBR-001;Casa Térrea - Lote 12;ETP-005;Cobertura;Cobertura;10;0;INS-005;Servente;Mão de obra;Mão de Obra;diária;;82.2;23.55;1935.81;;;
+Realizado;2026-08-29;OBR-001;Casa Térrea - Lote 12;ETP-005;Cobertura;Cobertura;10;40;INS-005;Servente;Mão de obra;Mão de Obra;diária;Hidráulica Água Boa;18.31;25.99;475.88;Cartão de Crédito;Pago;João Proprietário
+Realizado;2026-08-22;OBR-001;Casa Térrea - Lote 12;ETP-005;Cobertura;Cobertura;10;40;INS-005;Servente;Mão de obra;Mão de Obra;diária;Cia do Aço;18.31;24.7;452.26;Cartão de Crédito;Pago;Carlos Mestre de Obras
+Previsto;2026-08-20;OBR-001;Casa Térrea - Lote 12;ETP-005;Cobertura;Cobertura;10;0;INS-003;Tijolo Baiano 8 furos;Material;Alvenaria;un;;391.43;55.49;21720.45;;;
+Realizado;2026-08-22;OBR-001;Casa Térrea - Lote 12;ETP-005;Cobertura;Cobertura;10;40;INS-003;Tijolo Baiano 8 furos;Material;Alvenaria;un;Depósito Central;56.43;53.27;3006.03;Boleto;Pago;João Proprietário
+Realizado;2026-09-01;OBR-001;Casa Térrea - Lote 12;ETP-005;Cobertura;Cobertura;10;40;INS-003;Tijolo Baiano 8 furos;Material;Alvenaria;un;Construmax;56.43;60.12;3392.57;Boleto;A pagar;João Proprietário
+Realizado;2026-08-31;OBR-001;Casa Térrea - Lote 12;ETP-005;Cobertura;Cobertura;10;40;INS-003;Tijolo Baiano 8 furos;Material;Alvenaria;un;Hidráulica Água Boa;56.43;59.51;3358.15;Cartão de Crédito;Pago;Carlos Mestre de Obras
+Previsto;2026-09-09;OBR-001;Casa Térrea - Lote 12;ETP-006;Instalações Elétricas;Elétrico;10;0;INS-008;Tubo PVC 100mm;Material;Hidráulica;m;;317.11;65.8;20865.84;;;
+Previsto;2026-09-09;OBR-001;Casa Térrea - Lote 12;ETP-006;Instalações Elétricas;Elétrico;10;0;INS-005;Servente;Mão de obra;Mão de Obra;diária;;47.97;67.86;3255.24;;;
+Previsto;2026-09-09;OBR-001;Casa Térrea - Lote 12;ETP-006;Instalações Elétricas;Elétrico;10;0;INS-004;Pedreiro;Mão de obra;Mão de Obra;diária;;143.14;74.15;10613.83;;;
+Previsto;2026-09-09;OBR-001;Casa Térrea - Lote 12;ETP-006;Instalações Elétricas;Elétrico;10;0;INS-007;Cabo Flexível 2.5mm;Material;Elétrica;m;;274.67;40.6;11151.6;;;
+Previsto;2026-09-09;OBR-001;Casa Térrea - Lote 12;ETP-006;Instalações Elétricas;Elétrico;10;0;INS-006;Areia Média;Material;Concreto;m3;;123.32;143.38;17681.62;;;
+Previsto;2026-09-09;OBR-001;Casa Térrea - Lote 12;ETP-006;Instalações Elétricas;Elétrico;10;0;INS-003;Tijolo Baiano 8 furos;Material;Alvenaria;un;;356.15;26.88;9573.31;;;
+Previsto;2026-09-09;OBR-001;Casa Térrea - Lote 12;ETP-006;Instalações Elétricas;Elétrico;10;0;INS-010;Tinta Acrílica Branca 18L;Material;Acabamento;un;;209.72;115.38;24197.49;;;
+Previsto;2026-09-29;OBR-001;Casa Térrea - Lote 12;ETP-007;Instalações Hidráulicas;Hidráulico;10;0;INS-001;Cimento CP-II 50kg;Material;Concreto;saco;;243.72;189.41;46163.01;;;
+Previsto;2026-09-29;OBR-001;Casa Térrea - Lote 12;ETP-007;Instalações Hidráulicas;Hidráulico;10;0;INS-004;Pedreiro;Mão de obra;Mão de Obra;diária;;156.32;87.15;13623.29;;;
+Previsto;2026-09-29;OBR-001;Casa Térrea - Lote 12;ETP-007;Instalações Hidráulicas;Hidráulico;10;0;INS-007;Cabo Flexível 2.5mm;Material;Elétrica;m;;446.9;169.61;75798.71;;;
+Previsto;2026-09-29;OBR-001;Casa Térrea - Lote 12;ETP-007;Instalações Hidráulicas;Hidráulico;10;0;INS-009;Porcelanato 60x60;Material;Revestimento;m2;;273.73;150.91;41308.59;;;
+Previsto;2026-09-29;OBR-001;Casa Térrea - Lote 12;ETP-007;Instalações Hidráulicas;Hidráulico;10;0;INS-005;Servente;Mão de obra;Mão de Obra;diária;;401.94;181.1;72791.33;;;
+Previsto;2026-09-29;OBR-001;Casa Térrea - Lote 12;ETP-007;Instalações Hidráulicas;Hidráulico;10;0;INS-010;Tinta Acrílica Branca 18L;Material;Acabamento;un;;249.23;65.49;16322.07;;;
+Previsto;2026-09-29;OBR-001;Casa Térrea - Lote 12;ETP-007;Instalações Hidráulicas;Hidráulico;10;0;INS-008;Tubo PVC 100mm;Material;Hidráulica;m;;247.96;86.94;21557.64;;;
+Previsto;2026-10-19;OBR-001;Casa Térrea - Lote 12;ETP-008;Acabamento;Acabamento;15;0;INS-003;Tijolo Baiano 8 furos;Material;Alvenaria;un;;300.03;137.65;41299.13;;;
+Previsto;2026-10-19;OBR-001;Casa Térrea - Lote 12;ETP-008;Acabamento;Acabamento;15;0;INS-008;Tubo PVC 100mm;Material;Hidráulica;m;;51.13;94.29;4821.05;;;
+Previsto;2026-10-19;OBR-001;Casa Térrea - Lote 12;ETP-008;Acabamento;Acabamento;15;0;INS-010;Tinta Acrílica Branca 18L;Material;Acabamento;un;;434.76;48.62;21138.03;;;
+Previsto;2026-10-19;OBR-001;Casa Térrea - Lote 12;ETP-008;Acabamento;Acabamento;15;0;INS-005;Servente;Mão de obra;Mão de Obra;diária;;137.48;75.56;10387.99;;;
+Previsto;2026-10-19;OBR-001;Casa Térrea - Lote 12;ETP-008;Acabamento;Acabamento;15;0;INS-007;Cabo Flexível 2.5mm;Material;Elétrica;m;;232.8;77.44;18028.03;;;
+Previsto;2026-10-19;OBR-001;Casa Térrea - Lote 12;ETP-008;Acabamento;Acabamento;15;0;INS-001;Cimento CP-II 50kg;Material;Concreto;saco;;441.02;66.48;29319.01;;;
+Previsto;2026-10-19;OBR-001;Casa Térrea - Lote 12;ETP-008;Acabamento;Acabamento;15;0;INS-004;Pedreiro;Mão de obra;Mão de Obra;diária;;476.09;92.99;44271.61;;;
+Previsto;2026-07-15;OBR-002;Sobrado Alto Padrão;ETP-001;Serviços Preliminares;Serviços preliminares;5;0;INS-008;Tubo PVC 100mm;Material;Hidráulica;m;;119.87;27.69;3319.2;;;
+Realizado;2026-07-17;OBR-002;Sobrado Alto Padrão;ETP-001;Serviços Preliminares;Serviços preliminares;5;100;INS-008;Tubo PVC 100mm;Material;Hidráulica;m;Cia do Aço;36.52;26.48;967.05;PIX;Pago;Carlos Mestre de Obras
+Realizado;2026-07-13;OBR-002;Sobrado Alto Padrão;ETP-001;Serviços Preliminares;Serviços preliminares;5;100;INS-008;Tubo PVC 100mm;Material;Hidráulica;m;Construmax;36.52;27.0;986.04;PIX;Pago;João Proprietário
+Realizado;2026-07-15;OBR-002;Sobrado Alto Padrão;ETP-001;Serviços Preliminares;Serviços preliminares;5;100;INS-008;Tubo PVC 100mm;Material;Hidráulica;m;Construmax;36.52;30.55;1115.69;Cartão de Crédito;A pagar;Carlos Mestre de Obras
+Previsto;2026-07-15;OBR-002;Sobrado Alto Padrão;ETP-001;Serviços Preliminares;Serviços preliminares;5;0;INS-001;Cimento CP-II 50kg;Material;Concreto;saco;;391.12;45.3;17717.74;;;
+Realizado;2026-07-19;OBR-002;Sobrado Alto Padrão;ETP-001;Serviços Preliminares;Serviços preliminares;5;100;INS-001;Cimento CP-II 50kg;Material;Concreto;saco;Construmax;183.4;43.27;7935.72;Cartão de Crédito;A pagar;João Proprietário
+Realizado;2026-07-16;OBR-002;Sobrado Alto Padrão;ETP-001;Serviços Preliminares;Serviços preliminares;5;100;INS-001;Cimento CP-II 50kg;Material;Concreto;saco;Depósito Central;183.4;46.63;8551.94;Cartão de Crédito;Pago;Carlos Mestre de Obras
+Previsto;2026-07-15;OBR-002;Sobrado Alto Padrão;ETP-001;Serviços Preliminares;Serviços preliminares;5;0;INS-009;Porcelanato 60x60;Material;Revestimento;m2;;59.93;157.91;9463.55;;;
+Realizado;2026-07-28;OBR-002;Sobrado Alto Padrão;ETP-001;Serviços Preliminares;Serviços preliminares;5;100;INS-009;Porcelanato 60x60;Material;Revestimento;m2;Depósito Central;22.18;153.84;3412.17;Boleto;Pago;João Proprietário
+Realizado;2026-07-30;OBR-002;Sobrado Alto Padrão;ETP-001;Serviços Preliminares;Serviços preliminares;5;100;INS-009;Porcelanato 60x60;Material;Revestimento;m2;Elétrica Luz;22.18;152.19;3375.57;PIX;A pagar;João Proprietário
+Realizado;2026-07-21;OBR-002;Sobrado Alto Padrão;ETP-001;Serviços Preliminares;Serviços preliminares;5;100;INS-009;Porcelanato 60x60;Material;Revestimento;m2;Equipe Mão na Massa;22.18;153.35;3401.3;Boleto;Pago;João Proprietário
+Previsto;2026-07-15;OBR-002;Sobrado Alto Padrão;ETP-001;Serviços Preliminares;Serviços preliminares;5;0;INS-003;Tijolo Baiano 8 furos;Material;Alvenaria;un;;96.31;111.52;10740.49;;;
+Realizado;2026-07-27;OBR-002;Sobrado Alto Padrão;ETP-001;Serviços Preliminares;Serviços preliminares;5;100;INS-003;Tijolo Baiano 8 furos;Material;Alvenaria;un;Hidráulica Água Boa;31.93;123.97;3958.36;Boleto;Pago;João Proprietário
+Realizado;2026-07-17;OBR-002;Sobrado Alto Padrão;ETP-001;Serviços Preliminares;Serviços preliminares;5;100;INS-003;Tijolo Baiano 8 furos;Material;Alvenaria;un;Depósito Central;31.93;113.13;3612.24;Boleto;A pagar;Carlos Mestre de Obras
+Realizado;2026-07-28;OBR-002;Sobrado Alto Padrão;ETP-001;Serviços Preliminares;Serviços preliminares;5;100;INS-003;Tijolo Baiano 8 furos;Material;Alvenaria;un;Construmax;31.93;122.68;3917.17;Cartão de Crédito;Pago;Carlos Mestre de Obras
+Previsto;2026-08-04;OBR-002;Sobrado Alto Padrão;ETP-002;Fundação;Estrutural;15;0;INS-006;Areia Média;Material;Concreto;m3;;147.03;125.29;18421.39;;;
+Realizado;2026-08-05;OBR-002;Sobrado Alto Padrão;ETP-002;Fundação;Estrutural;15;100;INS-006;Areia Média;Material;Concreto;m3;Depósito Central;80.46;131.97;10618.31;PIX;Pago;João Proprietário
+Realizado;2026-08-06;OBR-002;Sobrado Alto Padrão;ETP-002;Fundação;Estrutural;15;100;INS-006;Areia Média;Material;Concreto;m3;Equipe Mão na Massa;80.46;132.94;10696.35;Boleto;Pago;João Proprietário
+Previsto;2026-08-04;OBR-002;Sobrado Alto Padrão;ETP-002;Fundação;Estrutural;15;0;INS-003;Tijolo Baiano 8 furos;Material;Alvenaria;un;;229.61;18.19;4176.61;;;
+Realizado;2026-08-08;OBR-002;Sobrado Alto Padrão;ETP-002;Fundação;Estrutural;15;100;INS-003;Tijolo Baiano 8 furos;Material;Alvenaria;un;Equipe Mão na Massa;112.23;19.8;2222.15;Cartão de Crédito;Pago;João Proprietário
+Realizado;2026-08-16;OBR-002;Sobrado Alto Padrão;ETP-002;Fundação;Estrutural;15;100;INS-003;Tijolo Baiano 8 furos;Material;Alvenaria;un;Elétrica Luz;112.23;18.83;2113.29;Boleto;Pago;João Proprietário
+Previsto;2026-08-04;OBR-002;Sobrado Alto Padrão;ETP-002;Fundação;Estrutural;15;0;INS-008;Tubo PVC 100mm;Material;Hidráulica;m;;160.25;57.65;9238.41;;;
+Realizado;2026-08-16;OBR-002;Sobrado Alto Padrão;ETP-002;Fundação;Estrutural;15;100;INS-008;Tubo PVC 100mm;Material;Hidráulica;m;Equipe Mão na Massa;51.68;56.15;2901.83;PIX;Pago;João Proprietário
+Realizado;2026-08-17;OBR-002;Sobrado Alto Padrão;ETP-002;Fundação;Estrutural;15;100;INS-008;Tubo PVC 100mm;Material;Hidráulica;m;Construmax;51.68;57.96;2995.37;Cartão de Crédito;Pago;Carlos Mestre de Obras
+Realizado;2026-08-08;OBR-002;Sobrado Alto Padrão;ETP-002;Fundação;Estrutural;15;100;INS-008;Tubo PVC 100mm;Material;Hidráulica;m;Cia do Aço;51.68;64.37;3326.64;Boleto;Pago;Carlos Mestre de Obras
+Previsto;2026-08-04;OBR-002;Sobrado Alto Padrão;ETP-002;Fundação;Estrutural;15;0;INS-002;Aço CA50 10mm;Material;Aço;kg;;356.93;38.42;13713.25;;;
+Realizado;2026-08-03;OBR-002;Sobrado Alto Padrão;ETP-002;Fundação;Estrutural;15;100;INS-002;Aço CA50 10mm;Material;Aço;kg;Equipe Mão na Massa;442.95;40.75;18050.21;Boleto;Pago;Carlos Mestre de Obras
+Previsto;2026-08-04;OBR-002;Sobrado Alto Padrão;ETP-002;Fundação;Estrutural;15;0;INS-009;Porcelanato 60x60;Material;Revestimento;m2;;291.29;101.84;29664.97;;;
+Realizado;2026-08-07;OBR-002;Sobrado Alto Padrão;ETP-002;Fundação;Estrutural;15;100;INS-009;Porcelanato 60x60;Material;Revestimento;m2;Hidráulica Água Boa;148.45;116.41;17281.06;PIX;A pagar;João Proprietário
+Realizado;2026-08-17;OBR-002;Sobrado Alto Padrão;ETP-002;Fundação;Estrutural;15;100;INS-009;Porcelanato 60x60;Material;Revestimento;m2;Equipe Mão na Massa;148.45;106.76;15848.52;Cartão de Crédito;Pago;Carlos Mestre de Obras
+Previsto;2026-08-04;OBR-002;Sobrado Alto Padrão;ETP-002;Fundação;Estrutural;15;0;INS-010;Tinta Acrílica Branca 18L;Material;Acabamento;un;;407.46;190.59;77657.8;;;
+Realizado;2026-08-12;OBR-002;Sobrado Alto Padrão;ETP-002;Fundação;Estrutural;15;100;INS-010;Tinta Acrílica Branca 18L;Material;Acabamento;un;Construmax;508.46;185.58;94360.01;Cartão de Crédito;Pago;Carlos Mestre de Obras
+Previsto;2026-08-04;OBR-002;Sobrado Alto Padrão;ETP-002;Fundação;Estrutural;15;0;INS-005;Servente;Mão de obra;Mão de Obra;diária;;390.09;85.37;33301.98;;;
+Realizado;2026-08-12;OBR-002;Sobrado Alto Padrão;ETP-002;Fundação;Estrutural;15;100;INS-005;Servente;Mão de obra;Mão de Obra;diária;Elétrica Luz;195.84;91.15;17850.82;Cartão de Crédito;Pago;Carlos Mestre de Obras
+Realizado;2026-08-05;OBR-002;Sobrado Alto Padrão;ETP-002;Fundação;Estrutural;15;100;INS-005;Servente;Mão de obra;Mão de Obra;diária;Equipe Mão na Massa;195.84;97.28;19051.32;PIX;Pago;Carlos Mestre de Obras
+Previsto;2026-08-24;OBR-002;Sobrado Alto Padrão;ETP-003;Estrutura;Estrutural;20;0;INS-004;Pedreiro;Mão de obra;Mão de Obra;diária;;210.17;142.53;29955.53;;;
+Realizado;2026-08-28;OBR-002;Sobrado Alto Padrão;ETP-003;Estrutura;Estrutural;20;100;INS-004;Pedreiro;Mão de obra;Mão de Obra;diária;Equipe Mão na Massa;105.29;142.0;14951.18;Boleto;Pago;Carlos Mestre de Obras
+Realizado;2026-09-08;OBR-002;Sobrado Alto Padrão;ETP-003;Estrutura;Estrutural;20;100;INS-004;Pedreiro;Mão de obra;Mão de Obra;diária;Construmax;105.29;161.74;17029.6;Cartão de Crédito;A pagar;Carlos Mestre de Obras
+Previsto;2026-08-24;OBR-002;Sobrado Alto Padrão;ETP-003;Estrutura;Estrutural;20;0;INS-003;Tijolo Baiano 8 furos;Material;Alvenaria;un;;218.32;115.74;25268.36;;;
+Realizado;2026-08-23;OBR-002;Sobrado Alto Padrão;ETP-003;Estrutura;Estrutural;20;100;INS-003;Tijolo Baiano 8 furos;Material;Alvenaria;un;Depósito Central;69.29;116.1;8044.57;PIX;Pago;João Proprietário
+Realizado;2026-09-06;OBR-002;Sobrado Alto Padrão;ETP-003;Estrutura;Estrutural;20;100;INS-003;Tijolo Baiano 8 furos;Material;Alvenaria;un;Elétrica Luz;69.29;123.73;8573.25;Boleto;Pago;João Proprietário
+Realizado;2026-08-27;OBR-002;Sobrado Alto Padrão;ETP-003;Estrutura;Estrutural;20;100;INS-003;Tijolo Baiano 8 furos;Material;Alvenaria;un;Construmax;69.29;126.15;8740.93;Cartão de Crédito;Pago;Carlos Mestre de Obras
+Previsto;2026-08-24;OBR-002;Sobrado Alto Padrão;ETP-003;Estrutura;Estrutural;20;0;INS-002;Aço CA50 10mm;Material;Aço;kg;;303.04;179.54;54407.8;;;
+Realizado;2026-08-21;OBR-002;Sobrado Alto Padrão;ETP-003;Estrutura;Estrutural;20;100;INS-002;Aço CA50 10mm;Material;Aço;kg;Cia do Aço;102.31;179.55;18369.76;Cartão de Crédito;A pagar;Carlos Mestre de Obras
+Realizado;2026-08-27;OBR-002;Sobrado Alto Padrão;ETP-003;Estrutura;Estrutural;20;100;INS-002;Aço CA50 10mm;Material;Aço;kg;Construmax;102.31;206.46;21122.92;PIX;Pago;Carlos Mestre de Obras
+Realizado;2026-09-08;OBR-002;Sobrado Alto Padrão;ETP-003;Estrutura;Estrutural;20;100;INS-002;Aço CA50 10mm;Material;Aço;kg;Hidráulica Água Boa;102.31;187.46;19179.03;Boleto;Pago;João Proprietário
+Previsto;2026-08-24;OBR-002;Sobrado Alto Padrão;ETP-003;Estrutura;Estrutural;20;0;INS-008;Tubo PVC 100mm;Material;Hidráulica;m;;321.04;105.97;34020.61;;;
+Realizado;2026-08-29;OBR-002;Sobrado Alto Padrão;ETP-003;Estrutura;Estrutural;20;100;INS-008;Tubo PVC 100mm;Material;Hidráulica;m;Equipe Mão na Massa;341.75;109.33;37363.53;PIX;A pagar;João Proprietário
+Previsto;2026-08-24;OBR-002;Sobrado Alto Padrão;ETP-003;Estrutura;Estrutural;20;0;INS-001;Cimento CP-II 50kg;Material;Concreto;saco;;211.71;106.66;22580.99;;;
+Realizado;2026-09-05;OBR-002;Sobrado Alto Padrão;ETP-003;Estrutura;Estrutural;20;100;INS-001;Cimento CP-II 50kg;Material;Concreto;saco;Depósito Central;86.86;118.68;10308.54;Boleto;Pago;João Proprietário
+Realizado;2026-08-31;OBR-002;Sobrado Alto Padrão;ETP-003;Estrutura;Estrutural;20;100;INS-001;Cimento CP-II 50kg;Material;Concreto;saco;Construmax;86.86;108.22;9399.99;PIX;Pago;João Proprietário
+Realizado;2026-08-25;OBR-002;Sobrado Alto Padrão;ETP-003;Estrutura;Estrutural;20;100;INS-001;Cimento CP-II 50kg;Material;Concreto;saco;Construmax;86.86;110.14;9566.76;Boleto;Pago;João Proprietário
+Previsto;2026-09-13;OBR-002;Sobrado Alto Padrão;ETP-004;Alvenaria;Estrutural;15;0;INS-001;Cimento CP-II 50kg;Material;Concreto;saco;;352.14;37.46;13191.16;;;
+Realizado;2026-09-13;OBR-002;Sobrado Alto Padrão;ETP-004;Alvenaria;Estrutural;15;88;INS-001;Cimento CP-II 50kg;Material;Concreto;saco;Elétrica Luz;114.98;37.38;4297.95;Cartão de Crédito;Pago;João Proprietário
+Realizado;2026-09-11;OBR-002;Sobrado Alto Padrão;ETP-004;Alvenaria;Estrutural;15;88;INS-001;Cimento CP-II 50kg;Material;Concreto;saco;Hidráulica Água Boa;114.98;36.29;4172.62;PIX;Pago;Carlos Mestre de Obras
+Realizado;2026-09-17;OBR-002;Sobrado Alto Padrão;ETP-004;Alvenaria;Estrutural;15;88;INS-001;Cimento CP-II 50kg;Material;Concreto;saco;Construmax;114.98;39.32;4521.01;Cartão de Crédito;Pago;João Proprietário
+Previsto;2026-09-13;OBR-002;Sobrado Alto Padrão;ETP-004;Alvenaria;Estrutural;15;0;INS-004;Pedreiro;Mão de obra;Mão de Obra;diária;;490.32;60.09;29463.33;;;
+Realizado;2026-09-27;OBR-002;Sobrado Alto Padrão;ETP-004;Alvenaria;Estrutural;15;88;INS-004;Pedreiro;Mão de obra;Mão de Obra;diária;Construmax;136.73;59.38;8119.03;Cartão de Crédito;A pagar;Carlos Mestre de Obras
+Realizado;2026-09-21;OBR-002;Sobrado Alto Padrão;ETP-004;Alvenaria;Estrutural;15;88;INS-004;Pedreiro;Mão de obra;Mão de Obra;diária;Elétrica Luz;136.73;60.41;8259.86;Cartão de Crédito;Pago;Carlos Mestre de Obras
+Realizado;2026-09-17;OBR-002;Sobrado Alto Padrão;ETP-004;Alvenaria;Estrutural;15;88;INS-004;Pedreiro;Mão de obra;Mão de Obra;diária;Construmax;136.73;60.48;8269.43;Cartão de Crédito;A pagar;João Proprietário
+Previsto;2026-09-13;OBR-002;Sobrado Alto Padrão;ETP-004;Alvenaria;Estrutural;15;0;INS-005;Servente;Mão de obra;Mão de Obra;diária;;433.98;97.61;42360.79;;;
+Realizado;2026-09-25;OBR-002;Sobrado Alto Padrão;ETP-004;Alvenaria;Estrutural;15;88;INS-005;Servente;Mão de obra;Mão de Obra;diária;Hidráulica Água Boa;194.92;103.5;20174.22;Boleto;A pagar;Carlos Mestre de Obras
+Realizado;2026-09-15;OBR-002;Sobrado Alto Padrão;ETP-004;Alvenaria;Estrutural;15;88;INS-005;Servente;Mão de obra;Mão de Obra;diária;Construmax;194.92;111.88;21807.65;Boleto;Pago;João Proprietário
+Previsto;2026-09-13;OBR-002;Sobrado Alto Padrão;ETP-004;Alvenaria;Estrutural;15;0;INS-008;Tubo PVC 100mm;Material;Hidráulica;m;;31.39;152.77;4795.45;;;
+Realizado;2026-09-28;OBR-002;Sobrado Alto Padrão;ETP-004;Alvenaria;Estrutural;15;88;INS-008;Tubo PVC 100mm;Material;Hidráulica;m;Cia do Aço;11.23;156.78;1760.64;Boleto;A pagar;Carlos Mestre de Obras
+Realizado;2026-09-26;OBR-002;Sobrado Alto Padrão;ETP-004;Alvenaria;Estrutural;15;88;INS-008;Tubo PVC 100mm;Material;Hidráulica;m;Elétrica Luz;11.23;160.48;1802.19;PIX;A pagar;João Proprietário
+Realizado;2026-09-22;OBR-002;Sobrado Alto Padrão;ETP-004;Alvenaria;Estrutural;15;88;INS-008;Tubo PVC 100mm;Material;Hidráulica;m;Depósito Central;11.23;148.18;1664.06;Cartão de Crédito;Pago;Carlos Mestre de Obras
+Previsto;2026-09-13;OBR-002;Sobrado Alto Padrão;ETP-004;Alvenaria;Estrutural;15;0;INS-002;Aço CA50 10mm;Material;Aço;kg;;46.67;159.58;7447.6;;;
+Realizado;2026-09-28;OBR-002;Sobrado Alto Padrão;ETP-004;Alvenaria;Estrutural;15;88;INS-002;Aço CA50 10mm;Material;Aço;kg;Depósito Central;20.91;173.71;3632.28;Boleto;A pagar;João Proprietário
+Realizado;2026-09-28;OBR-002;Sobrado Alto Padrão;ETP-004;Alvenaria;Estrutural;15;88;INS-002;Aço CA50 10mm;Material;Aço;kg;Equipe Mão na Massa;20.91;182.05;3806.67;Boleto;A pagar;Carlos Mestre de Obras
+Previsto;2026-09-13;OBR-002;Sobrado Alto Padrão;ETP-004;Alvenaria;Estrutural;15;0;INS-003;Tijolo Baiano 8 furos;Material;Alvenaria;un;;312.56;58.43;18262.88;;;
+Realizado;2026-09-10;OBR-002;Sobrado Alto Padrão;ETP-004;Alvenaria;Estrutural;15;88;INS-003;Tijolo Baiano 8 furos;Material;Alvenaria;un;Hidráulica Água Boa;112.07;67.16;7526.62;PIX;Pago;Carlos Mestre de Obras
+Realizado;2026-09-17;OBR-002;Sobrado Alto Padrão;ETP-004;Alvenaria;Estrutural;15;88;INS-003;Tijolo Baiano 8 furos;Material;Alvenaria;un;Depósito Central;112.07;60.69;6801.53;PIX;Pago;Carlos Mestre de Obras
+Realizado;2026-09-19;OBR-002;Sobrado Alto Padrão;ETP-004;Alvenaria;Estrutural;15;88;INS-003;Tijolo Baiano 8 furos;Material;Alvenaria;un;Hidráulica Água Boa;112.07;58.94;6605.41;PIX;Pago;João Proprietário
+Previsto;2026-09-13;OBR-002;Sobrado Alto Padrão;ETP-004;Alvenaria;Estrutural;15;0;INS-009;Porcelanato 60x60;Material;Revestimento;m2;;287.3;161.62;46433.43;;;
+Realizado;2026-09-20;OBR-002;Sobrado Alto Padrão;ETP-004;Alvenaria;Estrutural;15;88;INS-009;Porcelanato 60x60;Material;Revestimento;m2;Construmax;243.03;173.24;42102.52;Cartão de Crédito;Pago;Carlos Mestre de Obras
+Previsto;2026-10-03;OBR-002;Sobrado Alto Padrão;ETP-005;Cobertura;Cobertura;10;0;INS-008;Tubo PVC 100mm;Material;Hidráulica;m;;450.47;101.07;45529.0;;;
+Realizado;2026-10-12;OBR-002;Sobrado Alto Padrão;ETP-005;Cobertura;Cobertura;10;10;INS-008;Tubo PVC 100mm;Material;Hidráulica;m;Elétrica Luz;25.61;99.21;2540.77;Cartão de Crédito;Pago;João Proprietário
+Realizado;2026-10-12;OBR-002;Sobrado Alto Padrão;ETP-005;Cobertura;Cobertura;10;10;INS-008;Tubo PVC 100mm;Material;Hidráulica;m;Elétrica Luz;25.61;109.97;2816.33;PIX;A pagar;João Proprietário
+Previsto;2026-10-03;OBR-002;Sobrado Alto Padrão;ETP-005;Cobertura;Cobertura;10;0;INS-005;Servente;Mão de obra;Mão de Obra;diária;;62.26;85.55;5326.34;;;
+Realizado;2026-10-07;OBR-002;Sobrado Alto Padrão;ETP-005;Cobertura;Cobertura;10;10;INS-005;Servente;Mão de obra;Mão de Obra;diária;Depósito Central;3.43;98.26;337.03;Cartão de Crédito;Pago;Carlos Mestre de Obras
+Realizado;2026-09-29;OBR-002;Sobrado Alto Padrão;ETP-005;Cobertura;Cobertura;10;10;INS-005;Servente;Mão de obra;Mão de Obra;diária;Construmax;3.43;90.96;311.99;Cartão de Crédito;Pago;João Proprietário
+Previsto;2026-10-03;OBR-002;Sobrado Alto Padrão;ETP-005;Cobertura;Cobertura;10;0;INS-010;Tinta Acrílica Branca 18L;Material;Acabamento;un;;390.11;57.57;22458.63;;;
+Realizado;2026-10-06;OBR-002;Sobrado Alto Padrão;ETP-005;Cobertura;Cobertura;10;10;INS-010;Tinta Acrílica Branca 18L;Material;Acabamento;un;Equipe Mão na Massa;19.05;56.88;1083.56;Cartão de Crédito;Pago;Carlos Mestre de Obras
+Realizado;2026-10-18;OBR-002;Sobrado Alto Padrão;ETP-005;Cobertura;Cobertura;10;10;INS-010;Tinta Acrílica Branca 18L;Material;Acabamento;un;Equipe Mão na Massa;19.05;61.93;1179.77;PIX;Pago;João Proprietário
+Previsto;2026-10-03;OBR-002;Sobrado Alto Padrão;ETP-005;Cobertura;Cobertura;10;0;INS-003;Tijolo Baiano 8 furos;Material;Alvenaria;un;;26.35;82.5;2173.88;;;
+Realizado;2026-10-11;OBR-002;Sobrado Alto Padrão;ETP-005;Cobertura;Cobertura;10;10;INS-003;Tijolo Baiano 8 furos;Material;Alvenaria;un;Cia do Aço;2.45;83.24;203.94;PIX;Pago;João Proprietário
+Previsto;2026-10-03;OBR-002;Sobrado Alto Padrão;ETP-005;Cobertura;Cobertura;10;0;INS-006;Areia Média;Material;Concreto;m3;;270.12;184.0;49702.08;;;
+Realizado;2026-10-13;OBR-002;Sobrado Alto Padrão;ETP-005;Cobertura;Cobertura;10;10;INS-006;Areia Média;Material;Concreto;m3;Elétrica Luz;26.74;205.15;5485.71;Cartão de Crédito;A pagar;Carlos Mestre de Obras
+Previsto;2026-10-23;OBR-002;Sobrado Alto Padrão;ETP-006;Instalações Elétricas;Elétrico;10;0;INS-002;Aço CA50 10mm;Material;Aço;kg;;54.25;88.0;4774.0;;;
+Previsto;2026-10-23;OBR-002;Sobrado Alto Padrão;ETP-006;Instalações Elétricas;Elétrico;10;0;INS-003;Tijolo Baiano 8 furos;Material;Alvenaria;un;;139.58;37.86;5284.5;;;
+Previsto;2026-10-23;OBR-002;Sobrado Alto Padrão;ETP-006;Instalações Elétricas;Elétrico;10;0;INS-004;Pedreiro;Mão de obra;Mão de Obra;diária;;190.61;153.57;29271.98;;;
+Previsto;2026-10-23;OBR-002;Sobrado Alto Padrão;ETP-006;Instalações Elétricas;Elétrico;10;0;INS-007;Cabo Flexível 2.5mm;Material;Elétrica;m;;138.46;85.49;11836.95;;;
+Previsto;2026-10-23;OBR-002;Sobrado Alto Padrão;ETP-006;Instalações Elétricas;Elétrico;10;0;INS-006;Areia Média;Material;Concreto;m3;;322.89;83.72;27032.35;;;
+Previsto;2026-10-23;OBR-002;Sobrado Alto Padrão;ETP-006;Instalações Elétricas;Elétrico;10;0;INS-008;Tubo PVC 100mm;Material;Hidráulica;m;;340.67;102.22;34823.29;;;
+Previsto;2026-10-23;OBR-002;Sobrado Alto Padrão;ETP-006;Instalações Elétricas;Elétrico;10;0;INS-009;Porcelanato 60x60;Material;Revestimento;m2;;313.58;189.49;59420.27;;;
+Previsto;2026-11-12;OBR-002;Sobrado Alto Padrão;ETP-007;Instalações Hidráulicas;Hidráulico;10;0;INS-010;Tinta Acrílica Branca 18L;Material;Acabamento;un;;328.13;36.59;12006.28;;;
+Previsto;2026-11-12;OBR-002;Sobrado Alto Padrão;ETP-007;Instalações Hidráulicas;Hidráulico;10;0;INS-004;Pedreiro;Mão de obra;Mão de Obra;diária;;32.22;21.88;704.97;;;
+Previsto;2026-11-12;OBR-002;Sobrado Alto Padrão;ETP-007;Instalações Hidráulicas;Hidráulico;10;0;INS-002;Aço CA50 10mm;Material;Aço;kg;;498.0;36.48;18167.04;;;
+Previsto;2026-11-12;OBR-002;Sobrado Alto Padrão;ETP-007;Instalações Hidráulicas;Hidráulico;10;0;INS-006;Areia Média;Material;Concreto;m3;;125.05;114.45;14311.97;;;
+Previsto;2026-11-12;OBR-002;Sobrado Alto Padrão;ETP-007;Instalações Hidráulicas;Hidráulico;10;0;INS-009;Porcelanato 60x60;Material;Revestimento;m2;;200.44;83.64;16764.8;;;
+Previsto;2026-11-12;OBR-002;Sobrado Alto Padrão;ETP-007;Instalações Hidráulicas;Hidráulico;10;0;INS-003;Tijolo Baiano 8 furos;Material;Alvenaria;un;;475.2;143.85;68357.52;;;
+Previsto;2026-12-02;OBR-002;Sobrado Alto Padrão;ETP-008;Acabamento;Acabamento;15;0;INS-010;Tinta Acrílica Branca 18L;Material;Acabamento;un;;470.14;66.75;31381.84;;;
+Previsto;2026-12-02;OBR-002;Sobrado Alto Padrão;ETP-008;Acabamento;Acabamento;15;0;INS-003;Tijolo Baiano 8 furos;Material;Alvenaria;un;;348.24;55.19;19219.37;;;
+Previsto;2026-12-02;OBR-002;Sobrado Alto Padrão;ETP-008;Acabamento;Acabamento;15;0;INS-007;Cabo Flexível 2.5mm;Material;Elétrica;m;;227.9;58.68;13373.17;;;
+Previsto;2026-12-02;OBR-002;Sobrado Alto Padrão;ETP-008;Acabamento;Acabamento;15;0;INS-006;Areia Média;Material;Concreto;m3;;187.72;196.47;36881.35;;;
+Previsto;2026-12-02;OBR-002;Sobrado Alto Padrão;ETP-008;Acabamento;Acabamento;15;0;INS-001;Cimento CP-II 50kg;Material;Concreto;saco;;189.99;181.81;34542.08;;;
+Previsto;2026-12-02;OBR-002;Sobrado Alto Padrão;ETP-008;Acabamento;Acabamento;15;0;INS-004;Pedreiro;Mão de obra;Mão de Obra;diária;;325.97;26.2;8540.41;;;
+Previsto;2026-12-02;OBR-002;Sobrado Alto Padrão;ETP-008;Acabamento;Acabamento;15;0;INS-005;Servente;Mão de obra;Mão de Obra;diária;;145.18;194.12;28182.34;;;
