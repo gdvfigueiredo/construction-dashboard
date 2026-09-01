@@ -1,5 +1,7 @@
 # Dashboard de Gestão de Obras
 
+**Acesse a aplicação online aqui: [Produto Escalável](https://dashboard-escalavel-narqcivil.streamlit.app/)**
+
 O objetivo principal deste projeto é ajudar profissionais do setor de engenharia civil que não têm condições de arcar com as assinaturas de softwares de gestão caros e complexos. A ideia é que essa aplicação sirva como uma alternativa barata, direta e acessível para pequenos construtores, engenheiros autônomos e pequenas empreiteiras que precisam sair do caos das planilhas e ter controle real sobre o caixa e o cronograma de suas obras.
 
 **Nota sobre o escopo:** O código atual gera o dashboard consumindo uma planilha com dados fictícios (*mockados*). Portanto, este não é o produto final (que futuramente receberá conexão com um banco de dados), mas sim um protótipo funcional construído para dar uma ideia clara de como a ferramenta opera e validar as visualizações.
