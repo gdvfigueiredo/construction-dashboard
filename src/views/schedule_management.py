@@ -1,11 +1,11 @@
 import streamlit as st
 import plotly.express as px
-import pandas as pd
 
 def render_schedule_management(df):
-    """
-    Renderiza a aba de Gestão de Prazos e Avanço Físico.
-    """
+    # previne erro de tela se não houver dados no filtro
+    if df.empty:
+        st.warning("Sem dados pra calcular o avanço físico no filtro atual.")
+        return
 
     df_etapas = df.groupby('nome_etapa', as_index=False).agg({
         'peso_fisico_etapa_pct': 'max',
@@ -15,49 +15,38 @@ def render_schedule_management(df):
     df_etapas['avanco_ponderado'] = df_etapas['avanco_fisico_etapa_pct'] * (df_etapas['peso_fisico_etapa_pct'] / 100)
     avanco_global = df_etapas['avanco_ponderado'].sum()
 
-    st.markdown("### ⏳ Status Físico do Projeto")
-    col1, col2, col3 = st.columns(3)
+    st.subheader("Status Físico")
+    c1, c2, c3 = st.columns(3)
     
-    col1.metric("Avanço Físico Global", f"{avanco_global:.1f}%")
+    c1.metric("Avanço Global", f"{avanco_global:.1f}%")
     
-    etapas_concluidas = df_etapas[df_etapas['avanco_fisico_etapa_pct'] == 100].shape[0]
-    total_etapas = df_etapas.shape[0]
-    col2.metric("Etapas Concluídas", f"{etapas_concluidas} de {total_etapas}")
+    etapas_ok = df_etapas[df_etapas['avanco_fisico_etapa_pct'] == 100].shape[0]
+    c2.metric("Etapas Concluídas", f"{etapas_ok} de {len(df_etapas)}")
     
-    etapa_atrasada = df_etapas.sort_values(by='avanco_fisico_etapa_pct').iloc[0]['nome_etapa']
-    col3.metric("Atenção (Menor Avanço)", etapa_atrasada)
+    # previne Index Error na busca da pior etapa
+    etp_atrasada = df_etapas.sort_values('avanco_fisico_etapa_pct').iloc[0]['nome_etapa'] if len(df_etapas) > 0 else "-"
+    c3.metric("Maior Atraso", etp_atrasada)
     
-    st.divider()
+    st.markdown("---")
+    
+    c4, c5 = st.columns(2)
 
-    col4, col5 = st.columns(2)
+    with c4:
+        st.markdown("**Conclusão por Etapa**")
+        df_sorted = df_etapas.sort_values('avanco_fisico_etapa_pct', ascending=True)
 
-    with col4:
-        st.markdown("#### Conclusão por Etapa")
-        df_etapas_sorted = df_etapas.sort_values(by='avanco_fisico_etapa_pct', ascending=True)
-
-        fig_avanco = px.bar(
-            df_etapas_sorted,
-            x='avanco_fisico_etapa_pct',
-            y='nome_etapa',
-            orientation='h',
-            text='avanco_fisico_etapa_pct',
-            labels={'avanco_fisico_etapa_pct': 'Avanço (%)', 'nome_etapa': ''},
-            color='avanco_fisico_etapa_pct',
-            color_continuous_scale='Teal' 
+        fig_av = px.bar(
+            df_sorted, x='avanco_fisico_etapa_pct', y='nome_etapa', orientation='h',
+            text='avanco_fisico_etapa_pct', color='avanco_fisico_etapa_pct', color_continuous_scale='Blues' 
         )
-        
-        fig_avanco.update_layout(xaxis=dict(range=[0, 100]), coloraxis_showscale=False)
-        fig_avanco.update_traces(texttemplate='%{text}%') 
-        st.plotly_chart(fig_avanco, use_container_width=True)
-
-    with col5:
-        st.markdown("#### Peso das Etapas no Projeto")
-        
-        fig_peso = px.pie(
-            df_etapas,
-            values='peso_fisico_etapa_pct',
-            names='nome_etapa',
-            hole=0.4,
-            color_discrete_sequence=px.colors.qualitative.Safe
+        fig_av.update_layout(
+            xaxis=dict(range=[0, 100], title="Avanço (%)"), 
+            yaxis_title=None, coloraxis_showscale=False
         )
+        fig_av.update_traces(texttemplate='%{text}%') 
+        st.plotly_chart(fig_av, use_container_width=True)
+
+    with c5:
+        st.markdown("**Peso das Etapas**")
+        fig_peso = px.pie(df_etapas, values='peso_fisico_etapa_pct', names='nome_etapa', hole=0.4)
         st.plotly_chart(fig_peso, use_container_width=True)
