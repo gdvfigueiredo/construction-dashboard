@@ -1,85 +1,59 @@
 import streamlit as st
 import plotly.express as px
-import pandas as pd
+
+def formata_brl(v):
+    return f"R$ {v:,.2f}".replace(',', 'v').replace('.', ',').replace('v', '.')
 
 def render_realized_costs(df):
-    """
-    Renderiza a aba de Custos Realizados.
-    Filtra os dados para mostrar apenas o que já foi executado.
-    """
-
-    df_realizado = df[df['tipo_lancamento'] == 'Realizado']
+    df_real = df[df['tipo_lancamento'] == 'Realizado']
     
-    if df_realizado.empty:
-        st.warning("⚠️ Não há dados de custos realizados para os filtros selecionados.")
+    if df_real.empty:
+        st.info("Sem dados de custos realizados neste corte.")
         return
 
-    custo_total = df_realizado['valor_total'].sum()
-    moeda_formatada = f"R$ {custo_total:,.2f}".replace(',', 'X').replace('.', ',').replace('X', '.')
+    st.metric("Custo Realizado", formata_brl(df_real['valor_total'].sum()))
+    st.markdown("---")
     
-    st.metric(label="Custo Total Realizado", value=moeda_formatada)
-    st.divider()
+    # linha 1 de gráficos
+    c1, c2 = st.columns(2)
     
-    col1, col2 = st.columns(2)
-    
-    with col1:
-        st.markdown("#### Custo Mensal")
-        df_mes = df_realizado.groupby('mes_ano', as_index=False)['valor_total'].sum()
+    with c1:
+        st.markdown("**Custo Mensal**")
+        df_mes = df_real.groupby('mes_ano', as_index=False)['valor_total'].sum()
         
         fig_mes = px.bar(
-            df_mes, 
-            x='mes_ano', 
-            y='valor_total', 
-            text_auto='.2s',
-            labels={'valor_total': 'Custo (R$)', 'mes_ano': 'Mês de Referência'},
-            color_discrete_sequence=['#27AE60'] # Verde escuro para indicar "Realizado"
+            df_mes, x='mes_ano', y='valor_total', text_auto='.2s',
+            labels={'valor_total': 'R$', 'mes_ano': ''}
         )
-        fig_mes.update_layout(yaxis_title=None)
+        fig_mes.update_traces(marker_color='#d62728')
         st.plotly_chart(fig_mes, use_container_width=True)
         
-    with col2:
-        st.markdown("#### Top 5 Fornecedores")
-        df_fornecedor = df_realizado.groupby('nome_fornecedor', as_index=False)['valor_total'].sum()
-        df_fornecedor = df_fornecedor.sort_values(by='valor_total', ascending=False).head(5)
+    with c2:
+        st.markdown("**Top 5 Fornecedores**")
+        df_forn = df_real.groupby('nome_fornecedor', as_index=False)['valor_total'].sum()
+        df_forn = df_forn.sort_values('valor_total', ascending=False).head(5)
         
-        fig_fornecedor = px.bar(
-            df_fornecedor, 
-            x='valor_total', 
-            y='nome_fornecedor', 
-            orientation='h',
-            text_auto='.2s',
-            labels={'valor_total': 'Custo (R$)', 'nome_fornecedor': ''},
-            color_discrete_sequence=['#E67E22'] # Laranja
+        fig_forn = px.bar(
+            df_forn, x='valor_total', y='nome_fornecedor', orientation='h', text_auto='.2s',
+            labels={'valor_total': 'R$', 'nome_fornecedor': ''}
         )
-        fig_fornecedor.update_layout(yaxis={'categoryorder':'total ascending'})
-        st.plotly_chart(fig_fornecedor, use_container_width=True)
+        fig_forn.update_layout(yaxis={'categoryorder':'total ascending'})
+        fig_forn.update_traces(marker_color='#ff7f0e')
+        st.plotly_chart(fig_forn, use_container_width=True)
 
-    st.write("")
+    st.write("") # espaçamento
     
-    col3, col4 = st.columns(2)
+    # linha 2 de gráficos
+    c3, c4 = st.columns(2)
     
-    with col3:
-        st.markdown("#### Mão de Obra vs Material")
-        df_categoria = df_realizado.groupby('categoria_insumo', as_index=False)['valor_total'].sum()
+    with c3:
+        st.markdown("**Mão de Obra vs Material**")
+        df_cat = df_real.groupby('categoria_insumo', as_index=False)['valor_total'].sum()
+        fig_cat = px.pie(df_cat, values='valor_total', names='categoria_insumo', hole=0.4)
+        st.plotly_chart(fig_cat, use_container_width=True)
         
-        fig_categoria = px.pie(
-            df_categoria, 
-            values='valor_total', 
-            names='categoria_insumo',
-            hole=0.4,
-            color_discrete_sequence=px.colors.qualitative.Pastel
-        )
-        st.plotly_chart(fig_categoria, use_container_width=True)
-        
-    with col4:
-        st.markdown("#### Status Financeiro")
-        df_status = df_realizado.groupby('status_pagamento', as_index=False)['valor_total'].sum()
-        
-        fig_status = px.pie(
-            df_status, 
-            values='valor_total', 
-            names='status_pagamento',
-            hole=0.4,
-            color_discrete_sequence=['#2ECC71', '#E74C3C']
-        )
+    with c4:
+        st.markdown("**Status Financeiro**")
+        df_status = df_real.groupby('status_pagamento', as_index=False)['valor_total'].sum()
+        fig_status = px.pie(df_status, values='valor_total', names='status_pagamento', hole=0.4)
         st.plotly_chart(fig_status, use_container_width=True)
