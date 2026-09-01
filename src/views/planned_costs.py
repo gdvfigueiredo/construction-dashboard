@@ -1,54 +1,40 @@
 import streamlit as st
 import plotly.express as px
-import pandas as pd
+
+# TODO: mover essa função depois pra um arquivo utils.py compartilhado
+def formata_brl(v):
+    return f"R$ {v:,.2f}".replace(',', 'v').replace('.', ',').replace('v', '.')
 
 def render_planned_costs(df):
-    """
-    Renderiza a aba de Custos Planejados.
-    Recebe o dataframe já filtrado globalmente pela sidebar.
-    """
-  
-    df_previsto = df[df['tipo_lancamento'] == 'Previsto']
+    df_prev = df[df['tipo_lancamento'] == 'Previsto']
     
-    if df_previsto.empty:
-        st.warning("⚠️ Não há dados previstos para os filtros selecionados.")
+    if df_prev.empty:
+        st.warning("Nenhum custo previsto encontrado para os filtros atuais.")
         return
 
-
-    custo_total = df_previsto['valor_total'].sum()
-    moeda_formatada = f"R$ {custo_total:,.2f}".replace(',', 'X').replace('.', ',').replace('X', '.')
+    custo_total = df_prev['valor_total'].sum()
     
-    st.metric(label="Orçamento Total Previsto", value=moeda_formatada)
-    st.divider()
+    st.metric("Orçamento Previsto", formata_brl(custo_total))
+    st.markdown("---")
     
-    col1, col2 = st.columns(2)
+    c1, c2 = st.columns(2)
     
-    with col1:
-        st.subheader("Custos por Etapa da Obra")
-        df_etapa = df_previsto.groupby('nome_etapa', as_index=False)['valor_total'].sum()
-        df_etapa = df_etapa.sort_values(by='valor_total', ascending=True)
+    with c1:
+        st.markdown("**Custos por Etapa**")
+        # agrupando e já ordenando direto na mesma linha
+        df_etapa = df_prev.groupby('nome_etapa', as_index=False)['valor_total'].sum().sort_values('valor_total')
         
         fig_etapa = px.bar(
-            df_etapa, 
-            x='valor_total', 
-            y='nome_etapa', 
-            orientation='h',
-            text_auto='.2s',
-            labels={'valor_total': 'Custo Previsto (R$)', 'nome_etapa': ''},
-            color_discrete_sequence=['#2C3E50']
+            df_etapa, x='valor_total', y='nome_etapa', orientation='h',
+            text_auto='.2s', labels={'valor_total': 'Custo (R$)', 'nome_etapa': ''}
         )
-        fig_etapa.update_layout(yaxis_title=None)
+        fig_etapa.update_layout(yaxis_title=None, showlegend=False)
+        fig_etapa.update_traces(marker_color='#1f77b4')
         st.plotly_chart(fig_etapa, use_container_width=True)
         
-    with col2:
-        st.subheader("Distribuição por Grupo de Custo")
-        df_grupo = df_previsto.groupby('grupo_custo', as_index=False)['valor_total'].sum()
+    with c2:
+        st.markdown("**Distribuição por Grupo**")
+        df_grupo = df_prev.groupby('grupo_custo', as_index=False)['valor_total'].sum()
         
-        fig_grupo = px.pie(
-            df_grupo, 
-            values='valor_total', 
-            names='grupo_custo',
-            hole=0.4,
-            color_discrete_sequence=px.colors.qualitative.Prism
-        )
+        fig_grupo = px.pie(df_grupo, values='valor_total', names='grupo_custo', hole=0.4)
         st.plotly_chart(fig_grupo, use_container_width=True)
