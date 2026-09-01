@@ -1,62 +1,62 @@
 import streamlit as st
 import pandas as pd
 
+# importando as views
 from src.data_loader import load_and_clean_data
 from src.views.realized_costs import render_realized_costs
 from src.views.planned_costs import render_planned_costs
 from src.views.cost_monitoring import render_cost_monitoring    
 from src.views.schedule_management import render_schedule_management
 
-# 1. Configuração da Página
 st.set_page_config(
-    page_title="Gestão de Obras | Dashboard",
-    page_icon="🏗️",
-    layout="wide", 
-    initial_sidebar_state="expanded"
+    page_title="Dashboard Obras",
+    layout="wide"
 )
 
-df = load_and_clean_data("data/raw/dataset_mock_produto_escalavel.csv")
+# TODO: trocar o caminho do csv quando conectar com o banco de dados
+df = load_and_clean_data("data/dataset_mock_produto_escalavel.csv")
 
 with st.sidebar:
-    st.title("Filtros Globais")
-    st.markdown("Selecione os parâmetros para atualizar o painel.")
+    st.header("Filtros")
     
-    obras = df['nome_obra'].unique().tolist()
-    meses = sorted(df['mes_ano'].unique().tolist())
+    lista_obras = df['nome_obra'].unique().tolist()
+    lista_meses = sorted(df['mes_ano'].unique().tolist())
     
-    obra_selecionada = st.selectbox("Selecione a Obra:", ["Todas"] + obras)
-    mes_selecionado = st.selectbox("Mês de Referência:", ["Todos"] + meses)
+    obra_sel = st.selectbox("Obra:", ["Todas"] + lista_obras)
+    mes_sel = st.selectbox("Mês:", ["Todos"] + lista_meses)
     
-    st.divider()
-    st.caption("Desenvolvido para Gestão Escalável")
+    st.markdown("---")
+    st.caption("v1.0 - Em desenvolvimento")
 
+# aplicando os filtros
 df_filtrado = df.copy()
 
-if obra_selecionada != "Todas":
-    df_filtrado = df_filtrado[df_filtrado['nome_obra'] == obra_selecionada]
+if obra_sel != "Todas":
+    df_filtrado = df_filtrado[df_filtrado['nome_obra'] == obra_sel]
 
-if mes_selecionado != "Todos":
-    df_filtrado = df_filtrado[df_filtrado['mes_ano'] == mes_selecionado]
+if mes_sel != "Todos":
+    df_filtrado = df_filtrado[df_filtrado['mes_ano'] == mes_sel]
 
-st.title("📊 Dashboard de Gestão de Obras")
-st.markdown("Acompanhamento financeiro e físico de projetos.")
-st.divider()
 
-tab1, tab2, tab3, tab4 = st.tabs([
-    "💰 Custos Planejados", 
-    "📉 Custos Realizados", 
-    "⚖️ Monitoramento", 
-    "⏳ Gestão de Prazos"
+st.title("Dashboard de Obras")
+st.markdown("Acompanhamento financeiro e físico")
+st.write("")
+
+t_plan, t_real, t_mon, t_prazos = st.tabs([
+    "Planejado", 
+    "Realizado", 
+    "Monitoramento", 
+    "Prazos"
 ])
 
-with tab1:
+with t_plan:
     render_planned_costs(df_filtrado)
 
-with tab2:
+with t_real:
     render_realized_costs(df_filtrado)
 
-with tab3:
+with t_mon:
     render_cost_monitoring(df_filtrado)
 
-with tab4:
+with t_prazos:
     render_schedule_management(df_filtrado)
